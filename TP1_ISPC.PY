@@ -1,0 +1,15 @@
+print ("Actividad Integradora Programacion Inicial")
+print ("A continuacion, ingrese los valores solicitados y presione la tecla ENTER")
+valor1 = float (input ("Ingrese el primer valor: "))
+valor2 = float (input ("Ingrese el segundo valor: "))
+valor3 = float (input ("Ingrese el tercer valor: "))
+valor4 = float (input ("Ingrese el cuarto valor: "))
+valor5 = float (input ("Ingrese el quinto valor: "))
+suma = valor1+valor2+valor3+valor4+valor5
+print ("El resultado de la suma de ellos es:", suma) 
+promedio = suma/5
+print ("El promedio es: ", promedio)
+maximovalor = max(valor1, valor2, valor3, valor4, valor5)
+print ("El valor MAXIMO es: ", maximovalor)
+minimovalor = min (valor1, valor2, valor3, valor4, valor5)
+print ("El valor MINIMO de ellos es: ", minimovalor)
